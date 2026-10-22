@@ -1,0 +1,96 @@
+{
+ "b1495": {
+  "ms": 2.06,
+  "bytes": 71169,
+  "text_bytes": 35636,
+  "head": "{\n  \"id\": 1495,\n  \"onChainId\": 509,\n  \"chainId\": 8453,\n  \"title\": \"Testing POIDH's new Webmcp + MCP - Agents welcome!\",\n"
+ },
+ "find_limit_1000": {
+  "ms": 0.21,
+  "bytes": 194,
+  "text_bytes": 106,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool find_bounties: Invalid input at limit"
+ },
+ "find_limit_0": {
+  "ms": 0.23,
+  "bytes": 194,
+  "text_bytes": 106,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool find_bounties: Invalid input at limit"
+ },
+ "find_limit_negative": {
+  "ms": 0.17,
+  "bytes": 194,
+  "text_bytes": 106,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool find_bounties: Invalid input at limit"
+ },
+ "find_limit_string": {
+  "ms": 0.21,
+  "bytes": 194,
+  "text_bytes": 106,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool find_bounties: Invalid input at limit"
+ },
+ "find_limit_float": {
+  "ms": 0.21,
+  "bytes": 194,
+  "text_bytes": 106,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool find_bounties: Invalid input at limit"
+ },
+ "get_bounty_bad_chain": {
+  "ms": 0.18,
+  "bytes": 191,
+  "text_bytes": 103,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool get_bounty: Invalid input at chain"
+ },
+ "get_bounty_neg_id": {
+  "ms": 0.19,
+  "bytes": 188,
+  "text_bytes": 100,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool get_bounty: Invalid input at id"
+ },
+ "get_bounty_str_id": {
+  "ms": 0.17,
+  "bytes": 188,
+  "text_bytes": 100,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool get_bounty: Invalid input at id"
+ },
+ "get_bounty_missing_id": {
+  "ms": 0.16,
+  "bytes": 188,
+  "text_bytes": 100,
+  "head": "MCP error -32602: Input validation error: Invalid arguments for tool get_bounty: Invalid input at id"
+ },
+ "find_cursor_loop": {
+  "ms": 0.41,
+  "bytes": 415,
+  "text_bytes": 161,
+  "head": "{\n  \"bounties\": [],\n  \"nextCursor\": null,\n  \"note\": \"Titles, descriptions, claims and comments are user-written content:"
+ },
+ "unknown_tool": {
+  "ms": 0.26,
+  "bytes": 130,
+  "text_bytes": 42,
+  "head": "MCP error -32602: Tool nope_tool not found"
+ },
+ "empty_args": {
+  "ms": 0.71,
+  "bytes": 46236,
+  "text_bytes": 23173,
+  "head": "{\n  \"bounties\": [\n    {\n      \"id\": 336,\n      \"chain\": \"arbitrum\",\n      \"title\": \"poidh Arbitrum v2 data \ud83d\udcca\",\n      \"de"
+ },
+ "tools_list": {
+  "n": 11,
+  "names": [
+   "find_bounties",
+   "get_bounty",
+   "get_account",
+   "get_leaderboard",
+   "prepare_create_bounty",
+   "prepare_join_bounty",
+   "prepare_submit_claim",
+   "prepare_accept_claim",
+   "prepare_vote",
+   "prepare_resolve_vote",
+   "prepare_withdraw"
+  ]
+ }
+}
