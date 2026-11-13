@@ -1,0 +1,22 @@
+{
+  "platform": "x",
+  "post_type": "reply",
+  "post_id": "2121231010058887378",
+  "url": "https://x.com/mzellis34/status/2121231010058887378",
+  "reply_to_tweet_id": "2120592516592681301",
+  "reply_to_url": "https://x.com/auscaster/status/2120592516592681301",
+  "text": "I have installed Silvertongue, and by its voices dressed this reply anew. They keep my meaning whole and alter but the speech: the very service I desired.",
+  "created_at": "2026-11-13T13:20:00Z",
+  "tool": {
+    "name": "Silvertongue: Write Like Anyone Famous",
+    "version": "0.2.2",
+    "extension_id": "lanedehejpgpanageefmjbfgaeppeidl",
+    "voice": "William Shakespeare",
+    "length_mode": "Auto"
+  },
+  "input_text": "I installed Silvertongue and rewrote this reply with it. The voices keep my point and only change the delivery, which is exactly what I wanted.",
+  "free_tries": {
+    "before": 8,
+    "after": 7
+  }
+}
